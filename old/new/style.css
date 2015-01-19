@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-image:url(images/back.jpg);
+background-repeat:repeat;
+}
+#contenido{
+position:relative;
+
+}
+#indice{
+position:relative;
+background-image:url(images/psw.jpg); 
+background-position:center top;
+background-repeat:no-repeat;
+width:1024px; 
+height:700px;
+}
+#about{
+	position:absolute;
+	width:100px;
+	height:37px;
+	background-image:url(images/about.png);
+	background-position:0% 0%;
+	left: 467px;
+	top: 212px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#about:hover{
+position:absolute;
+width:100px;
+height:50px;
+background-image:url(images/about.png);
+background-position:0% 125%;
+overflow:hidden;
+background-repeat:no-repeat;
+}
+#work{
+	position:absolute;
+	width:100px;
+	height:37px;
+	background-image:url(images/work.png);
+	background-position:0% 0%;
+	left: 368px;
+	top: 212px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#work:hover{
+position:absolute;
+width:100px;
+height:50px;
+background-image:url(images/work.png);
+background-position:0% 113%;
+overflow:hidden;
+background-repeat:no-repeat;
+}
+#correo{
+	position:absolute;
+	width:695px;
+	height:37px;
+	left: 162px;
+	top: 680px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999999;
+}
+#correo a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:none;
+}
+#correo a:hover{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	text-decoration:underline;
+}

@@ -1,0 +1,10 @@
+body {margin: 0; padding: 0; background-color: #5F8FBF; background-image: url('bg.jpg'); background-repeat: repeat-x; background-position: left top; }
+#imSite {width: 980px; margin: 15px auto; text-align: left; }
+#imHeader {height: 156px; background-image: url('top.jpg'); background-repeat: no-repeat; background-position: left top; }
+#imBody {background-image: url('content.jpg'); background-repeat: repeat-y; background-position: left top; }
+#imMenuMain {height: 34px; padding: 1px 11px 0 25px; background-image: url('menu.jpg'); background-repeat: no-repeat; background-position: left top; }
+#imContent {clear: left; padding: 8px 16px 0 26px; }
+#imFooter {clear: both; height: 46px; background-image: url('bottom.jpg'); background-repeat: no-repeat; background-position: left top; }
+#imFooter_L {margin: 8px 0 0 30px; float: left; }
+#imFooter_R {margin: 8px 30px 0 0; float: right; }
+
